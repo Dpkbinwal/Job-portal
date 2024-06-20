@@ -9,7 +9,7 @@ import Home from "./components/Home"
 import About from "./components/About"
 import Resume from "./components/Resume"
 import Notes from "./components/Notes"
-import Interview from "./components/Interview"
+import News from "./components/News"
 
 
 
@@ -22,7 +22,7 @@ function App() {
         <Route path="/about" element={<About/>} /> 
         <Route path="/resume" element={<Resume/>} /> 
         <Route path="/notes" element={<Notes/>} /> 
-        <Route path="/interview" element={<Interview/>} /> 
+        <Route path="/news" element={<News/>} /> 
 
         <Route path="*" element ={<></>} />
       </Routes>

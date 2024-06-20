@@ -29,7 +29,7 @@ const Navbar = () => {
 				<li class="md:px-4 md:py-2 hover:text-indigo-400"><a href="/about">About</a></li>
 				<li class="md:px-4 md:py-2 hover:text-indigo-400"><a href="/resume">Resume</a></li>
 				<li class="md:px-4 md:py-2 hover:text-indigo-400"><a href="/notes">Notes</a></li>
-				<li class="md:px-4 md:py-2 hover:text-indigo-400"><a href="/interview">Interview Q&A</a></li>
+				<li class="md:px-4 md:py-2 hover:text-indigo-400"><a href="/news">News</a></li>
 				{/* <li class="md:px-4 md:py-2 hover:text-indigo-400"><a href="#">Tech News</a></li> */}
 			</ul>
 		</div>

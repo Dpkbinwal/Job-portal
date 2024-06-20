@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import { Auth0Provider } from '@auth0/auth0-react';
 import './index.css'
+import { AppProvider } from './components/News/context.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   
@@ -12,7 +13,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       authorizationParams={{
         redirect_uri: window.location.origin
       }}
-    >
+    > 
+    <AppProvider>
        <App />
+       </AppProvider>
     </Auth0Provider>
 )
